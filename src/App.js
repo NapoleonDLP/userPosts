@@ -4,7 +4,7 @@ import './App.css';
 import PostsCount from './Posts';
 
 function App() {
-  const [ allUsers, setUsers ] =useState([]);
+  const [ allUsers, setUsers ] = useState([]);
 
   useEffect(() => {
     fetch('https://jsonplaceholder.typicode.com/users')
